@@ -1,8 +1,11 @@
-Original tutorial: https://qiita.com/kaishuu0123/items/00b89e092f156a02a3e5
-Google doc: https://docs.google.com/presentation/d/1IGQRNSIGhvXH9avdN83xDWDFSA2omn465c7LlR23oa4/edit?usp=sharing
+#Original tutorial: https://qiita.com/kaishuu0123/items/00b89e092f156a02a3e5
+
+#Google doc: https://docs.google.com/presentation/d/1IGQRNSIGhvXH9avdN83xDWDFSA2omn465c7LlR23oa4/edit?usp=sharing
+
 
 Initialize the project
-	Create a new application mydemo with parameter webpack=react
+---
+   Create a new application mydemo with parameter webpack=react
 		rails new mydemo --webpack=react
 		bundle install
 	Create a controller Home with index page to display our application
@@ -15,6 +18,7 @@ Initialize the project
 		http://localhost:3000/home/index
 
 Create a Rails API implementation (backend)
+---
 	Create a model task to store the data (title, description)
 		rails g model task title:string description:string
 		rails db:migrate
@@ -31,6 +35,7 @@ Create a Rails API implementation (backend)
 		http://localhost:3000/api/tasks
 
 Implement React components (frontend)
+---
 	Add React components
 		app/javascript/packs/application.js
 		app/javascript/components/app.jsx
