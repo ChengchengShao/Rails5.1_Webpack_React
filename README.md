@@ -43,8 +43,6 @@ Google doc: https://docs.google.com/presentation/d/1IGQRNSIGhvXH9avdN83xDWDFSA2o
 		app/javascript/components/task-form.jsx
 		app/javascript/components/task-row.jsx
 		app/javascript/components/task-table.jsx
-	3.2 Modify app/controllers/home_controller.rb
-		class HomeController < ActionController::Base
 	3.3 Modify app/controllers/application_controller.rb
 		class ApplicationController < ActionController::API
 	3.4 Modify app/views/home/index.html.erb
