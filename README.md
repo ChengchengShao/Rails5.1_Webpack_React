@@ -1,6 +1,5 @@
-#Original tutorial: https://qiita.com/kaishuu0123/items/00b89e092f156a02a3e5
-
-#Google doc: https://docs.google.com/presentation/d/1IGQRNSIGhvXH9avdN83xDWDFSA2omn465c7LlR23oa4/edit?usp=sharing
+Original tutorial: https://qiita.com/kaishuu0123/items/00b89e092f156a02a3e5
+Google doc: https://docs.google.com/presentation/d/1IGQRNSIGhvXH9avdN83xDWDFSA2omn465c7LlR23oa4/edit?usp=sharing
 
 
 Initialize the project
@@ -28,7 +27,7 @@ Create a Rails API implementation (backend)
 	Modify config/routes.rb to map between HTTP verbs and URLs to controller actions
 		namespace :api do
 			resources :tasks
-	  end
+	  	end
 	Register data manually to test the Rails API implementation
 		rails c
 		Task.create(title: "foo", description: "bar")
